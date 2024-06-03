@@ -1,0 +1,193 @@
+@charset "UTF-8";   /* コードの文字化けを防ぐ */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family:Arial, sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 210px;
+  margin: 14px 30px;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 34px;
+  margin:30px;
+}
+
+.main-nav li {
+  margin: 0 15px;
+}
+
+.main-nav li a {
+  color: white;
+}
+
+.main-nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #009bc6;
+  color: #fff;
+}
+
+/* page-header */
+.profile {
+  text-align: center;
+  margin-top: 5%;
+  padding: 2.5%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px 2px #dcdcdc;
+}
+
+.profile p {
+  font-size: 20px;
+  margin: 10px 0 50px 0;
+}
+
+.page-title {
+  font-size: 45px;
+}
+
+.profile section {
+  margin-bottom: 30px;
+}
+
+.profile section h2 {
+  font-size: 20px;
+  color: #0066cc;
+  margin-bottom: 8px;
+}
+
+.profile ul {
+  list-style: none;
+}
+
+.profile ul li {
+  margin-bottom: 8px;
+}
+
+/* スキル */
+.skill-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  margin: 0 20px;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-top: 5%;
+  padding: 2.5%;
+}
+
+.skill-contents .item {
+  background-color: #e0f7fa;
+  text-align: center;
+  box-shadow: 0 1px 2px gray;
+  border-radius: 4px;
+}
+
+.skill-contents .item h2 {
+  font-size: 27px;
+}
+
+.skill-contents .item img {
+  margin-top: 16px;
+}
+
+/* ポートフォリオ */
+.portfolio-contents {
+  text-align: center;
+  margin-top: 5%;
+  padding: 2.5%;
+
+}
+
+.jankengame .page-title {
+  margin-bottom: 50px;
+}
+
+.button {
+  font-size: 25px;
+  background-color: #0066cc;
+  padding: 18px 32px;
+  border-radius: 5px;
+  color: white;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+/* お問合わせ */
+.contact-contents {
+  text-align: center;
+
+}
+
+.contact-contents .page-title {
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;   /* labelの下部に配置*/
+}
+input,textarea {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+.contact-contents button {
+  display: inline-block;
+  margin-bottom: 100px;
+  padding: 5px 15px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-contents button:hover {
+  background-color: #005bb5;
+}
+
+/* 著作権 */
+footer {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #009bc6;
+  color: white;
+}
+
+/* メディアクエリ */
+

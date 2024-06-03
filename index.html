@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <title>My Profile</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ファビコン -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/fabicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fabicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fabicon/favicon-16x16.png">
+    <link rel="manifest" href="/fabicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <header class="page-header wrapper">
+      <h1 class="logo">丸茂 達也</h1>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#profile">自己紹介</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#portfolio">ポートフォリオ</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 自己紹介 -->
+    <div class="profile" id="profile">
+        <h2 class="page-title">Marumo&nbsp;Tatsuya&nbsp;Portfolio</h2>
+        <p>今までの経験をご紹介します</p>
+        <section>
+            <h2>2015 高校生</h2>
+            <ul>
+                <li>サッカー部初 関東大会出場</li>
+                <li>センター試験でE判定からの現役逆転合格</li>
+            </ul>
+        </section>
+        <section>
+            <h2>2018 大学生</h2>
+            <ul>
+                <li>TOEIC3ヶ月の勉強で+300点 (395→695点)</li>
+                <li>動画編集で100件以上の案件を獲得</li>
+            </ul>
+        </section>
+        <section>
+            <h2>2022 社会人</h2>
+            <ul>
+                <li>建設業界 技術職勤務</li>
+                <li>自社へ24卒生の1名採用に貢献</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- スキル -->
+    <div class="skills" id="skills">
+        <h2 class="page-title">スキル</h2>
+    </div>
+    <div class="skill-contents">
+        <div class="item">
+            <h2>Java</h2>
+            <p>自己開発1年未満</p>
+            <img src="java.png" alt="">
+        </div>
+        <div class="item">
+            <h2>Python</h2>
+            <p>自己開発1年未満</p>
+            <img src="python.png" alt="">
+        </div>
+        <div class="item">
+            <h2>HTML</h2>
+            <p>自己開発1年未満</p>
+            <img src="html.png" alt="">
+        </div>
+        <div class="item">
+            <h2>CSS</h2>
+            <p>自己開発1年未満</p>
+            <img src="css.png" alt="">
+        </div>
+        <div class="item">
+            <h2>Javascript</h2>
+            <p>自己開発1年未満</p>
+            <img src="javascript.png" alt="">
+        </div>
+        <div class="item">
+            <h2>PremierePro</h2>
+            <p>自己開発3年未満</p>
+            <img src="premierepro.png" alt="">
+        </div>
+    </div>
+
+    <!-- ポートフォリオ -->
+    <div class="portfolio-contents" id="portfolio">
+        <div class="jankengame">
+            <h2 class="page-title">ポートフォリオ</h2>
+            <a href="https://tatsuya12138.github.io/jankenGame2/" class="button">じゃんけんゲームで遊ぶ</a>
+        </div>
+    </div>
+
+    <!-- お問い合わせ -->
+    <div class="contact-contents" id="contact">
+        <h2 class="page-title">お問い合わせ</h2>
+        <form action="#">
+            <div>
+                <label for="name">お名前</label>
+                <input type="text" placeholder="山田 太郎">
+            </div>
+            <div>
+                <label for="mail">メールアドレス</label>
+                <input type="email" placeholder="example@mail.com">
+            </div>
+            <div>
+                <label for="message">メッセージ</label>
+                <textarea name="message" id="" placeholder="お問合せ内容"></textarea>
+            </div>
+            <button type="submit" onclick="myFunction()">送信</button>
+        </form>
+    </div>
+
+    <!-- 著作権 -->
+    <footer>
+        <div class="copyright">
+            <p><small>&copy; 2024 MarumoTatsuya</small></p>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+            alert("ボタンが押されました！");
+        }
+    </script>
+</body>
+</html>
